@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css\stylesheet.css">
+        <title>Matt's Mad Libs</title>
+    </head>
+<body>
+    <h1 class="title">Matt's Mad Libs</h1>
+    <img src="img\dog.png" alt="Dog photo" class="dog-photo">
+    <div class="container" id="wordEntry">
+        <label for="word1"> Word 1</label>
+        <input type="text" id="word1" placeholder="Enter an animal">
+        <label for="word2"> Word 2 </label>
+        <input type="text" id="word2" placeholder="Enter a name">
+        <label for="word3"> Word 3 </label>
+        <input type="text" id="word3" placeholder="Enter a day of the week">
+        <label for="word4"> Word 4</label>
+        <input type="text" id="word4" placeholder="Enter a verb">
+        <label for="word5"> Word 5 </label>
+        <input type="text" id="word5" placeholder="Enter a location">
+        <label for="word6"> Word 6 </label>
+        <input type="text" id="word6" placeholder="Enter a verb">
+        <label for="word7"> Word 7</label>
+        <input type="text" id="word7" placeholder="Enter a type of furniture">
+        <label for="word8"> Word 8 </label>
+        <input type="text" id="word8" placeholder="Enter a holiday">
+        <label for="word9"> Word 9 </label>
+        <input type="text" id="word9" placeholder="Enter an adjective">
+        <label for="word10"> Word 10</label>
+        <input type="text" id="word10" placeholder="Enter a verb">
+        <label for="word11"> Word 11 </label>
+        <input type="text" id="word11" placeholder="Enter an adjective">
+        <label for="word12"> Word 12 </label>
+        <input type="text" id="word12" placeholder="Enter an adjective">
+        <label for="word13"> Word 13 </label>
+        <input type="text" id="word13" placeholder="Enter a food item">
+        <button onclick="generate()">Generate your Mad Lib</button>
+    </div>
+    <div class="container" id="createdMadLib" style="display:none;">
+        <div id="madLibContent"></div>
+        <button onclick="resetMadLib()">Reset</button>
+    </div>
+    <script src="js\script.js"></script>
+    <footer>
+        <p>Mad Lib Source: https://upaaquila.org/fun-and-games/pet-trouble-mad-libs/</p>
+    </footer>
+</body>
+</html>

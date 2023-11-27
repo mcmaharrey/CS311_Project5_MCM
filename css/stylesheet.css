@@ -1,0 +1,73 @@
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Comic Sans MS";
+}
+
+body {
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #dddbdb;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #f80505;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    
+}
+
+#wordEntry, #createdMadLib {
+    text-align: center;
+    width: 100%;
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007FFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3457D5;
+}
+
+.dog-photo {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.entered-word {
+    color: red;
+    font-weight: bold;
+}
